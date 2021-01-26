@@ -24,7 +24,7 @@ export default () => {
   const [year, setYear] = useState(thisYear);
   const [runIndex, setRunIndex] = useState(-1);
   const [runs, setActivity] = useState(
-    filterAndSortRuns(activities, year, filterYearRuns, sortDateFunc)
+    filterAndSortRuns(activities, year, filterYearRuns, sortDateFunc),
   );
   const [title, setTitle] = useState('');
   const [geoData, setGeoData] = useState(geoJsonForRuns(runs));
@@ -124,7 +124,7 @@ export default () => {
           rect.addEventListener(
             'click',
             () => locateActivity(runLocate),
-            false
+            false,
           );
         }
       }
