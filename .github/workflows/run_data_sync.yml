@@ -20,10 +20,11 @@ on:
 
 env:
   # please change to your own config.
-  RUN_TYPE: pass # support runtastic/strava/nike/garmin/garmin_cn/keep/only_gpx/nike_to_strava, Please change the 'pass' it to your own
+  RUN_TYPE: joyrun # support runtastic/strava/nike/garmin/garmin_cn/keep/only_gpx/nike_to_strava,
+  Please change the 'pass' it to your own
   ATHLETE: theo7n15
   TITLE: theo7n15 Running
-  TITLE_GRID: Over 10km Runs
+  TITLE_GRID: Over 3km Runs
   GITHUB_NAME: Theoshen
   GITHUB_EMAIL: theoshen@foxmail.com
 
